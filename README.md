@@ -16,3 +16,5 @@ I digitised and standardised these names, georeferenced the map and digitised th
 The [__GeoJSON file__](nautz.geojson) contains the geometries of streets and buildings that no longer exist or changed significantly in their appearance - sometimes names are used for just part of the nowadays equivalent or vice versa, sometimes buildings still exist but have only remotely regocnizable geometries.
 
 The [__CSV file__](nautz.csv) contains all names, with a geojson chunk if there is a geometry, and a [BAG](https://nl.wikipedia.org/wiki/Basisregistraties_Adressen_en_Gebouwen) id if the street or building still exists today.
+
+Beware of the id's Nautz uses! They are case sensitive - `A` is a different building than `a`!
