@@ -1,7 +1,7 @@
-#The Nautz Haarlem Map
+# The Nautz Haarlem Map
 Data from the 1829 map of Haarlem bij F.J. Nautz
 
-##The Map
+## The Map
 
 ![The Nautz Haarlem Map](img/kaart.jpg)
 
@@ -11,7 +11,7 @@ What makes the map 'The First Tourist Map' of Haarlem are the two lists on the b
 
 I digitised and standardised these names, georeferenced the map and digitised the geometries of streets and buildings that have since dissapeared or changed significantly. You'll find the result of these efforts in this repository.
 
-##The Data
+## The Data
 
 The [__GeoJSON file__](nautz.geojson) contains the geometries of streets and buildings that no longer exist or changed significantly in their appearance - sometimes names are used for just part of the nowadays equivalent or vice versa, sometimes buildings still exist but have only remotely recognizable geometries.
 
@@ -19,6 +19,6 @@ The [__CSV file__](nautz.csv) contains all names, with a geojson chunk if there 
 
 Beware of the id's Nautz uses! They are case sensitive - `A` is a different building than `a`!
 
-##License
+## License
 
 <img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png" width="100" alt="CC0 licensed" />
